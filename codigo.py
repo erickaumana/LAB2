@@ -26,7 +26,3 @@ df["HORAS EXTRA"] = np.where(
 
 #Crear csv final
 df.to_csv("resultado.csv", index=False)
-
-
-
-
